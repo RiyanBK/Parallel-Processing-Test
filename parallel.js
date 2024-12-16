@@ -50,7 +50,7 @@ else {
 
     // Run tests with different numbers of workers
     async function runAllTests() {
-        const arraySize = 1000000; // Change this to test different array sizes
+        const arraySize = 100000; // Change this to test different array sizes
         const workerCounts = [1, 2, 4, 8]; // Easy to modify worker counts
 
         for (const workers of workerCounts) {
